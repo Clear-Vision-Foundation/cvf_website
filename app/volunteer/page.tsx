@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Globe, Calendar, Check } from "lucide-react"
+import { VolunteerForm } from "@/components/volunteer-form"
 
 export default function VolunteerPage() {
   // Sample volunteer opportunities
@@ -145,101 +146,13 @@ export default function VolunteerPage() {
       </section>
 
       {/* Application Form */}
-      <section className="py-12 md:py-24">
+      <section className="py-12 md:py-24" id="volunteer-form">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="mx-auto max-w-3xl">
-            <div className="mb-8 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Apply to Volunteer</h2>
-              <p className="mt-2 text-gray-500">
-                Fill out the form below to express your interest in volunteering with us.
-              </p>
-            </div>
-            <form className="space-y-6">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="first-name" className="mb-2 block text-sm font-medium text-gray-700">
-                    First Name
-                  </label>
-                  <input
-                    type="text"
-                    id="first-name"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="last-name" className="mb-2 block text-sm font-medium text-gray-700">
-                    Last Name
-                  </label>
-                  <input
-                    type="text"
-                    id="last-name"
-                    className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                    required
-                  />
-                </div>
-              </div>
-              <div>
-                <label htmlFor="email" className="mb-2 block text-sm font-medium text-gray-700">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="phone" className="mb-2 block text-sm font-medium text-gray-700">
-                  Phone Number
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                />
-              </div>
-              <div>
-                <label htmlFor="opportunity" className="mb-2 block text-sm font-medium text-gray-700">
-                  Interested Opportunity
-                </label>
-                <select
-                  id="opportunity"
-                  className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                  required
-                >
-                  <option value="">Select an opportunity</option>
-                  {volunteerOpportunities.map((opportunity) => (
-                    <option key={opportunity.id} value={opportunity.id}>
-                      {opportunity.title}
-                    </option>
-                  ))}
-                  <option value="other">Other/General Volunteer</option>
-                </select>
-              </div>
-              <div>
-                <label htmlFor="message" className="mb-2 block text-sm font-medium text-gray-700">
-                  Why do you want to volunteer with us?
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="w-full rounded-md border border-gray-300 px-4 py-2 focus:border-custom-darkBlue focus:outline-none focus:ring-1 focus:ring-custom-darkBlue"
-                  required
-                ></textarea>
-              </div>
-              <div>
-                <Button type="submit" className="w-full bg-custom-darkBlue hover:bg-custom-darkBlue">
-                  Submit Application
-                </Button>
-              </div>
-            </form>
-          </div>
+          <VolunteerForm opportunities={volunteerOpportunities} />
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials
       <section className="bg-gray-50 py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -304,7 +217,7 @@ export default function VolunteerPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="bg-custom-darkBlue py-12 md:py-24 text-white">
@@ -318,9 +231,9 @@ export default function VolunteerPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="#volunteer-form">
+              <a href="#volunteer-form">
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-50">Apply Now</Button>
-              </Link>
+              </a>
               <Link href="/contact">
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-200 font-semibold">Contact Us</Button>
               </Link>

@@ -29,8 +29,8 @@ export default function NonprofitPage() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Medical Eye Camps</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-lg">
                   We collaborate with NGOs, corporate sponsors, and donors to organize free medical eye camps in
-                  underserved regions. At these camps, individuals receive comprehensive eye screenings, and those
-                  diagnosed with cataracts are provided access to fully funded surgeries.
+                  underserved regions. At these camps, individuals will receive comprehensive eye screenings, and those
+                  diagnosed with cataracts will be provided access to fully funded surgeries.
                 </p>
               </div>
               <div className="flex items-center space-x-4">
@@ -96,7 +96,7 @@ export default function NonprofitPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Global Reach</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-lg">
-                  We have expanded internationally, with team members spanning multiple continents. Our collective
+                  We operate internationally, with team members spanning multiple continents. Our collective
                   efforts allow us to bring vision care to communities worldwide, bridging the gap between medical
                   resources and those who need them most.
                 </p>
@@ -137,19 +137,19 @@ export default function NonprofitPage() {
             <div className="flex flex-col items-center space-y-2 rounded-lg border border-gray-200 p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">20+</div>
               <p className="text-center text-gray-500">
-                Free medical eye camps annually, reaching over 5,000 individuals in need.
+                Free medical eye camps annually, our goal is to reach over 5,000 individuals in need.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2 rounded-lg border border-gray-200 p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">500+</div>
               <p className="text-center text-gray-500">
-                Cataract surgeries funded each year, restoring sight to those suffering from preventable blindness.
+                Cataract surgeries to be funded each year, restoring sight to those suffering from preventable blindness.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2 rounded-lg border border-gray-200 p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">2,000+</div>
               <p className="text-center text-gray-500">
-                Free prescription glasses distributed to underserved communities annually.
+                Free prescription glasses to be distributed to underserved communities annually.
               </p>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function NonprofitPage() {
                 Support Our Nonprofit Initiatives
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-100 md:text-xl">
-                Your contribution helps fund eye camps, surgeries, and prescription lens distribution for those in need.
+                Your contribution will help fund eye camps, surgeries, and prescription lens distribution for those in need.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

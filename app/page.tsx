@@ -28,9 +28,9 @@ export default function Home() {
                 <Link href="/donate">
                   <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Now</Button>
                 </Link>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <Button className="bg-white text-custom-darkBlue hover:bg-gray-200 font-semibold">Learn More</Button>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="flex items-center justify-center">
@@ -107,19 +107,19 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">20+</div>
               <p className="text-center text-gray-500">
-                Free medical eye camps annually, reaching over 5,000 individuals in need.
+                Free medical eye camps annually, our goal is to reach over 5,000 individuals in need.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">500+</div>
               <p className="text-center text-gray-500">
-                Cataract surgeries funded each year, restoring sight to those suffering from preventable blindness.
+                Cataract surgeries to be funded each year, restoring sight to those suffering from preventable blindness.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
               <div className="text-3xl font-bold text-custom-darkBlue">2,000+</div>
               <p className="text-center text-gray-500">
-                Free prescription glasses distributed to underserved communities annually.
+                Free prescription glasses to be distributed to underserved communities annually.
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Global Reach</h2>
               <p className="max-w-[600px] text-gray-500 md:text-lg">
-                We have expanded internationally, with team members spanning multiple continents. Our collective efforts
+                We operate internationally, with team members spanning multiple continents. Our collective efforts
                 allow us to bring vision care to communities worldwide, bridging the gap between medical resources and
                 those who need them most.
               </p>
