@@ -14,7 +14,7 @@ export default function BlogPage() {
       category: "Impact",
       author: "Dr. Sarah Johnson",
       date: "April 15, 2023",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export default function BlogPage() {
       category: "Research",
       author: "Dr. Michael Chen",
       date: "March 22, 2023",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function BlogPage() {
       category: "Field Work",
       author: "Emma Rodriguez",
       date: "February 10, 2023",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export default function BlogPage() {
       category: "Research",
       author: "Dr. James Wilson",
       date: "January 28, 2023",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export default function BlogPage() {
       category: "Community",
       author: "Lisa Thompson",
       date: "January 5, 2023",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ export default function BlogPage() {
       category: "Technology",
       author: "Dr. Robert Kim",
       date: "December 12, 2022",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/placeholder.webp",
     },
   ]
 
