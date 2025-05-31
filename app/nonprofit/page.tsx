@@ -43,10 +43,10 @@ export default function NonprofitPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_7.webp"
                 alt="Medical Eye Camps"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>
@@ -60,7 +60,7 @@ export default function NonprofitPage() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex items-center justify-center md:order-first">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="image_1.webp"
                 alt="Prescription Lens Distribution"
                 width={400}
                 height={400}
@@ -111,10 +111,10 @@ export default function NonprofitPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_3.webp"
                 alt="Global Reach"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>

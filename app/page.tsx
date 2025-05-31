@@ -35,10 +35,10 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_1.webp"
                 alt="ClearVision Foundation"
-                width={400}
-                height={400}
+                width={600}
+                height={600}
                 className="rounded-lg object-cover"
               />
             </div>
@@ -132,10 +132,10 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_5.webp"
                 alt="Global Reach"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>

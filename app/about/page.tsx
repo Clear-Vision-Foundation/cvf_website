@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Heart, Globe } from "lucide-react"
+import image_1 from "@/public/image_1.webp"
 
 export default function AboutPage() {
   return (
@@ -97,7 +98,7 @@ export default function AboutPage() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src={image_1}
                 alt="Global Reach"
                 width={400}
                 height={400}

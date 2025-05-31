@@ -43,10 +43,10 @@ export default function ResearchPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_4.webp"
                 alt="Research and Development"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>
@@ -106,10 +106,10 @@ export default function ResearchPage() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_2.webp"
                 alt="Research Impact"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>

@@ -91,10 +91,10 @@ export default function VolunteerPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/image_6.webp"
                 alt="Volunteers in action"
-                width={400}
-                height={400}
+                width={450}
+                height={450}
                 className="rounded-lg object-cover"
               />
             </div>
