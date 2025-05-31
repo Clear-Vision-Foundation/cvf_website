@@ -44,12 +44,12 @@ export default function Header() {
           <Link href="/" className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
             Home
           </Link>
-          <Link
+          {/* <Link
             href="/about"
             className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             About
-          </Link>
+          </Link> */}
           <Link
             href="/research"
             className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"

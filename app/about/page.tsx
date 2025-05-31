@@ -108,7 +108,7 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Global Reach</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-lg">
-                  We have expanded internationally, with team members spanning multiple continents. Our collective
+                  We operate internationally, with team members spanning multiple continents. Our collective
                   efforts allow us to bring vision care to communities worldwide, bridging the gap between medical
                   resources and those who need them most.
                 </p>
