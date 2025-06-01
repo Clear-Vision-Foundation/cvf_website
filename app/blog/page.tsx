@@ -8,6 +8,7 @@ export default function BlogPage() {
   const blogPosts = [
     {
       id: 1,
+      slug: "the-impact-of-vision-care",
       title: "The Impact of Vision Care in Developing Countries",
       excerpt:
         "Exploring how accessible vision care transforms lives and communities in developing regions around the world.",
@@ -18,6 +19,7 @@ export default function BlogPage() {
     },
     {
       id: 2,
+      slug: "innovations-in-adaptive-lens-technology",
       title: "Innovations in Adaptive Lens Technology",
       excerpt:
         "A deep dive into the latest breakthroughs in our adaptive lens research and what it means for the future of vision correction.",
@@ -28,6 +30,7 @@ export default function BlogPage() {
     },
     {
       id: 3,
+      slug: "stories-from-our-medical-eye-camps",
       title: "Stories from Our Medical Eye Camps",
       excerpt: "Heartwarming stories of transformation from our recent medical eye camps in rural communities.",
       category: "Field Work",
@@ -37,6 +40,7 @@ export default function BlogPage() {
     },
     {
       id: 4,
+      slug: "economics-of-vision-impact-on-livelihoods",
       title: "The Economics of Vision: How Clear Sight Impacts Livelihoods",
       excerpt:
         "Examining the economic impact of vision impairment and how corrective measures can improve productivity and quality of life.",
@@ -47,6 +51,7 @@ export default function BlogPage() {
     },
     {
       id: 5,
+      slug: "volunteer-spotlight-global-team",
       title: "Volunteer Spotlight: Meet Our Global Team",
       excerpt: "Introducing the dedicated volunteers who make our mission possible across different continents.",
       category: "Community",
@@ -56,6 +61,7 @@ export default function BlogPage() {
     },
     {
       id: 6,
+      slug: "science-behind-adaptive-lenses",
       title: "The Science Behind Adaptive Lenses",
       excerpt: "Understanding the scientific principles that make our adaptive lens technology possible.",
       category: "Technology",
@@ -98,7 +104,7 @@ export default function BlogPage() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between p-6">
                   <div className="flex-1">
-                    <Link href={`/blog/${post.id}`} className="block">
+                    <Link href={`/blog/article/${post.slug || post.title.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')}`} className="block">
                       <h3 className="mb-2 text-xl font-bold leading-tight text-gray-900 hover:text-custom-darkBlue">
                         {post.title}
                       </h3>
