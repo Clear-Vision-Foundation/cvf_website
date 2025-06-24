@@ -143,7 +143,7 @@ export default function ResearchPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/donate">
+              <Link href="https://mygivingcircle.org/clearvision-foundation/donate/free">
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-50">Donate Today</Button>
               </Link>
               <Link href="/contact">

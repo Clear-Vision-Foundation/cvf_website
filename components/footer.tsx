@@ -57,7 +57,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/donate" className="text-sm text-gray-600 hover:text-custom-darkBlue">
+                              <Link 
+                href="https://mygivingcircle.org/clearvision-foundation/donate/free"
+                className="text-sm text-gray-600 hover:text-custom-darkBlue"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
                   Donate
                 </Link>
               </li>

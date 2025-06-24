@@ -140,7 +140,11 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/donate">
+                      <Link 
+                href="https://mygivingcircle.org/clearvision-foundation/donate/free"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-50 font-semibold">Donate Today</Button>
               </Link>
               <Link href="/about/learn-more">

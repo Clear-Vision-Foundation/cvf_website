@@ -77,7 +77,11 @@ export default function Header() {
           >
             Contact
           </Link>
-          <Link href="/donate">
+                       <Link 
+                href="https://mygivingcircle.org/clearvision-foundation/donate/free"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
             <Button className="bg-custom-darkBlue hover:bg-custom-mediumBlue">Donate</Button>
           </Link>
         </nav>
@@ -139,7 +143,11 @@ export default function Header() {
             >
               Contact
             </Link>
-            <Link href="/donate" className="w-full" onClick={() => setIsMenuOpen(false)}>
+            <Link href="https://mygivingcircle.org/clearvision-foundation/donate/free" 
+            className="w-full"
+             target="_blank"
+            rel="noopener noreferrer"
+             onClick={() => setIsMenuOpen(false)}>
               <Button className="w-full bg-custom-darkBlue hover:bg-custom-mediumBlue">Donate</Button>
             </Link>
           </nav>
