@@ -25,7 +25,11 @@ export default function Home() {
                 underserved communities while advancing innovative solutions to reshape the future of vision correction.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="/donate">
+                <Link 
+                  href="https://mygivingcircle.org/clearvision-foundation/donate/free" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Now</Button>
                 </Link>
                 {/* <Link href="/about">
@@ -175,7 +179,11 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/donate">
+              <Link 
+                href="https://mygivingcircle.org/clearvision-foundation/donate/free"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Today</Button>
               </Link>
               <Link href="/volunteer">
