@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "ClearVision Foundation",
   description: "Bringing clear vision within reach for underserved communities worldwide",
+  icons: {
+    icon: "/cvf_favicon.png",
+  },
 }
 
 export default function RootLayout({
