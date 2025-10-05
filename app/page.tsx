@@ -158,7 +158,7 @@ export default function Home() {
               </div>
               {/* OneSight EssilorLuxottica Foundation Partnership */}
               <div className="flex flex-col items-center mt-6 space-y-2">
-                <p className="text-sm text-gray-400 text-center">with partners like</p>
+                <p className="text-sm text-gray-500 text-center">with partners like</p>
                 <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/onesight-logo.png"
