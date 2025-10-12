@@ -160,6 +160,20 @@ export default function Home() {
                   <p className="text-gray-500">Serving communities across continents</p>
                 </div>
               </div>
+              {/* OneSight EssilorLuxottica Foundation Partnership */}
+              <div className="flex flex-col items-center mt-6 space-y-2">
+                <p className="text-sm text-gray-500 text-center">with partners like</p>
+                <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/onesight-logo.png"
+                    alt="OneSight EssilorLuxottica Foundation"
+                    width={300}
+                    height={60}
+                    className="opacity-85 hover:opacity-100 transition-opacity cursor-pointer"
+                    style={{ height: '60px', width: 'auto' }}
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
