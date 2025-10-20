@@ -6,41 +6,48 @@ import { Users, Microscope, Globe } from "lucide-react"
 export default function Home() {
   return (
     <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-custom-darkBlue to-custom-mediumBlue py-20 text-white">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid gap-6 md:grid-cols-2 md:gap-12">
-            <div className="flex flex-col justify-center space-y-4">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  Bringing Clear Vision Within Reach
-                </h1>
-                <p className="text-xl text-gray-100 md:text-2xl">
-                  "Vision isn't just about what we see—it's about believing in a future where no one is left in the
-                  dark."
-                </p>
-              </div>
-              <p className="max-w-[600px] text-gray-100 md:text-lg">
-                At ClearVision Foundation, we are on a mission to provide accessible, high-quality eye care to
-                underserved communities while advancing innovative solutions to reshape the future of vision correction.
+      {/* Hero Section - full viewport with background image and overlay */}
+      <section className="relative h-screen w-full">
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src={'/image_5 (1).png'}
+            alt="Children receiving eye care"
+            fill
+            priority
+            className="object-cover"
+          />
+          {/* subtle dark overlay for text contrast */}
+          <div className="absolute inset-0 bg-black/35 z-10" />
+        </div>
+
+        <div className="container mx-auto h-full px-4 md:px-6 relative z-20">
+          <div className="h-full flex items-center">
+            <div className="max-w-3xl">
+              {/* Orbis-style yellow boxed heading - each line in its own box */}
+              <h1 className="mb-6" style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', lineHeight: 1.2, letterSpacing: '-0.02em' }}>
+                <span className="inline-block bg-[#E8D639] text-[#0b2540] px-8 py-3 mb-2" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                  Bringing Clear Vision
+                </span>
+                <br />
+                <span className="inline-block bg-[#E8D639] text-[#0b2540] px-8 py-3" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                  Within Reach
+                </span>
+              </h1>
+              <p className="mb-6 text-lg text-white md:text-xl max-w-[680px]">
+                "Vision isn't just about what we see—it's about believing in a future where no one is left in the dark."
               </p>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              <p className="mb-6 max-w-[680px] text-gray-100 md:text-lg">
+                At ClearVision Foundation, we are on a mission to provide accessible, high-quality eye care to underserved
+                communities while advancing innovative solutions to reshape the future of vision correction.
+              </p>
+              <div className="flex flex-col gap-3 sm:flex-row">
                 <Link href="/donate">
-                  <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Now</Button>
+                  <Button variant="hero" className="hero-cta font-semibold">Donate Now</Button>
                 </Link>
-                {/* <Link href="/about">
-                  <Button className="bg-white text-custom-darkBlue hover:bg-gray-200 font-semibold">Learn More</Button>
-                </Link> */}
+                <Link href="/volunteer">
+                  <Button variant="hero-secondary" className="hero-cta">Volunteer</Button>
+                </Link>
               </div>
-            </div>
-            <div className="flex items-center justify-center">
-              <Image
-                src="/image_1.webp"
-                alt="ClearVision Foundation"
-                width={600}
-                height={600}
-                className="rounded-lg object-cover"
-              />
             </div>
           </div>
         </div>
@@ -132,7 +139,7 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex items-center justify-center">
               <Image
-                src="/image_5.webp"
+                src="/WhatsApp Image 2025-10-10 at 7.10.56 PM (1).jpeg"
                 alt="Global Reach"
                 width={450}
                 height={450}

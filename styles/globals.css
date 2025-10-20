@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* Use Inter for body and Playfair Display for headings (Playfair approximates the Orbis serif look) */
+  font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -14,6 +17,9 @@ body {
 
 @layer base {
   :root {
+  /* logo yellow used for hero heading accent (approximate warm yellow) */
+  --logo-yellow: 48 100% 45%; /* use via hsl(var(--logo-yellow)) */
+
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
@@ -91,4 +97,50 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Playfair utility for headings to match Orbis-style serif headline */
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* Hero boxed headline that mimics Orbis styling: large serif text on a warm yellow band */
+.hero-title-line {
+  display: inline-block;
+  position: relative;
+  z-index: 50;
+  background-color: hsl(var(--logo-yellow)) !important;
+  color: #0b2540 !important; /* dark navy for strong contrast on the yellow */
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 0 rgba(0,0,0,0.04);
+  line-height: 1;
+  transform-origin: left center;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+@supports (box-decoration-break: clone) {
+  .hero-title-line {
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+}
+
+/* CTA niceties: subtle transform and color transition on hover */
+.hero-cta {
+  transition: background-color .18s ease, color .18s ease, transform .12s ease;
+}
+.hero-cta:hover {
+  transform: translateY(-3px);
+}
+
+/* donate button: darker yellow on hover for clear change */
+.hero-cta.donate:hover {
+  background-color: #E8C400; /* slightly deeper warm yellow */
+}
+
+/* secondary button: invert on hover to yellow outline */
+.hero-cta.secondary:hover {
+  background-color: hsl(var(--logo-yellow));
+  color: #0b2540;
 }

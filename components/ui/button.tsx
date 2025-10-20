@@ -10,6 +10,8 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        hero: "bg-yellow-400 text-custom-darkBlue hover:bg-yellow-300",
+        'hero-secondary': "bg-white text-custom-darkBlue hover:bg-[hsl(var(--logo-yellow))] hover:text-[#0b2540]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
