@@ -13,117 +13,185 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 // Mock Data for Blog Articles
 const articles = [
   {
-    slug: "the-impact-of-vision-care",
-    title: "The Impact of Vision Care in Developing Countries",
-    subtitle: "Exploring how accessible vision care transforms lives and communities in developing regions around the world.",
-    author: "Dr. Sarah Johnson",
-    authorRole: "Chief Medical Officer",
-    authorBio: "Dr. Sarah Johnson is a renowned ophthalmologist with over 15 years of experience in international eye care initiatives. She has led medical missions in over 20 countries and published extensively on global eye health equity.",
+    slug: "leonardo-da-vinci-vision",
+    title: "How Leonardo da Vinci Tried to Hack Vision 500 Years Ago",
+    subtitle: "Leonardo da Vinci's groundbreaking explorations into human vision reveal a remarkable synthesis of art and science, centuries ahead of his time.",
+    author: "Karishmaa Siddharthan",
+    authorRole: "Writer",
+    authorBio: "",
     authorImage: "/placeholder.webp",
-    date: "April 15, 2023",
-    category: "Impact",
+    date: "April 16, 2025",
+    category: "History",
+    medicalReviewer: "Jessica Broodryk, OD, FAAO",
     content: [
       {
         type: "text",
-        value: "Vision impairment affects over 2.2 billion people worldwide, with a disproportionate burden falling on low and middle-income countries. This article explores how targeted vision care initiatives are transforming communities and creating lasting impact in developing regions around the world."
+        value: "Leonardo da Vinci is widely celebrated for masterpieces such as the Mona Lisa and The Last Supper, yet his intellectual curiosity extended far beyond the realm of art. Among his many scientific endeavors, da Vinci displayed a profound fascination with human vision, formulating hypotheses and conducting empirical observations that predated modern discoveries in neuroscience and optics. At a time when the mechanics of sight were poorly understood, he independently explored the anatomy of the eye, the role of the brain in perception, and the principles of perspective, making significant contributions to both science and art. This article examines Leonardo's insights into vision, revealing how his interdisciplinary approach allowed him to bridge scientific observation and artistic technique centuries before the advent of formal optical studies."
       },
       {
         type: "heading",
-        value: "The Hidden Cost of Vision Impairment"
+        value: "The Eye as an Optical Instrument"
       },
       {
         type: "text",
-        value: "Vision impairment and blindness impact not just individuals but entire communities. Studies show that addressing vision problems can increase productivity by up to 35% and individual earning capacity by 20%. For children, clear vision is directly linked to better educational outcomes, with students gaining the equivalent of an extra 0.5-0.7 years of schooling when vision needs are addressed."
-      },
-      {
-        type: "image",
-        url: "/placeholder.webp",
-        caption: "A young student receiving their first pair of prescription glasses at our recent eye camp in rural Kenya."
+        value: "Leonardo da Vinci's understanding of the eye's function demonstrated an early recognition of its optical properties, akin to those of a camera. He was particularly intrigued by the camera obscura, a device that projects an inverted image onto a surface through a small aperture. Observing this phenomenon, he hypothesized that the eye operates in a similar manner. He deduced that light entering through the pupil is focused within the eye, forming an inverted image before the brain interprets it. Although the physiological role of the retina had yet to be discovered, Leonardo's detailed anatomical sketches and written observations indicate that he suspected a neurological mechanism was responsible for correcting the inversion. This hypothesis, remarkably ahead of its time, aligns with modern understandings of visual processing in which the retina captures an image that is later interpreted by the brain's visual cortex."
       },
       {
         type: "heading",
-        value: "ClearVision's Approach"
+        value: "The Role of the Brain in Vision"
       },
       {
         type: "text",
-        value: "Our foundation utilizes a multi-faceted approach that combines immediate intervention with sustainable infrastructure building. This includes mobile eye clinics that can reach remote areas, training of local healthcare workers in basic vision screening and care, and the establishment of permanent vision centers that serve as hubs for ongoing care."
-      },
-      {
-        type: "text",
-        value: "What sets our approach apart is our emphasis on adaptive lens technology, which allows for quick adjustments without requiring constant professional oversight. This technology is particularly valuable in regions with limited access to vision care specialists."
-      },
-      {
-        type: "image",
-        url: "/placeholder.webp",
-        caption: "Local healthcare workers being trained to use our adaptive lens technology in Guatemala."
+        value: "Da Vinci's investigations extended beyond the physical structure of the eye to its relationship with the brain. Through meticulous dissections of human and animal specimens, he identified the optic nerve as a crucial conduit between the eye and the brain. His notes reveal a critical departure from the prevailing theories of his time, which posited that vision was an active process in which the eyes emitted visual rays to perceive their surroundings. Instead, Leonardo proposed that the eyes merely receive light and images, while the brain synthesizes and interprets visual information. Though he lacked the tools to fully elucidate the complexities of neural processing, his fundamental insight — that perception is not solely an ocular phenomenon but a cognitive one — anticipated later developments in neuroscience."
       },
       {
         type: "heading",
-        value: "Success Stories from the Field"
+        value: "The Influence of Light on Color Perception"
       },
       {
         type: "text",
-        value: "One of the most rewarding aspects of our work is witnessing the immediate impact clear vision can have on individuals. Maria, a 67-year-old grandmother in rural Ecuador, had been unable to see clearly for over a decade. After receiving properly fitted glasses from our mobile clinic, she was able to see her youngest grandchildren's faces clearly for the first time."
-      },
-      {
-        type: "text",
-        value: "Similarly, in Bangladesh, we worked with local schools to provide vision screening for over 5,000 children. Approximately 18% required vision correction, and follow-up assessments showed significant improvements in academic performance within just one semester."
+        value: "Leonardo also recognized the profound influence of light on color perception, a principle that modern vision science attributes to the interaction of photoreceptor cells in the retina. His extensive observations led him to conclude that color is not an intrinsic property of objects but rather depends on ambient lighting conditions. He documented how the same material could appear dramatically different under sunlight, candlelight, or shadow, foreshadowing contemporary theories of color contrast and adaptation. This understanding had direct implications for his artistic technique. Rather than employing rigid, uniform tones, Leonardo mastered the use of sfumato — a method of blending colors seamlessly — to create lifelike, three-dimensional images, a technique still studied in art and perception research today."
       },
       {
         type: "heading",
-        value: "Long-term Impact and Sustainability"
+        value: "Depth Perception and Binocular Vision"
       },
       {
         type: "text",
-        value: "While immediate interventions are important, our ultimate goal is to create sustainable systems that can function independently. This means working closely with local governments, training healthcare providers, and establishing supply chains for glasses and other vision care products."
-      },
-      {
-        type: "text",
-        value: "Our five-year assessment of programs in six countries shows promising results: locations with established ClearVision partnerships have seen a 60% increase in regular vision screenings and a 45% increase in access to corrective eyewear. Most importantly, 80% of the vision centers established through our initiatives continue to operate successfully after the transition to full local management."
-      },
-      {
-        type: "image",
-        url: "/placeholder.webp",
-        caption: "A permanent vision center established through our partnership with local health authorities in rural India."
+        value: "Another of Leonardo's breakthroughs was his analysis of depth perception, which he recognized as being dependent on the slightly different perspectives provided by each eye. By conducting simple experiments — such as alternately closing one eye and noting how objects appeared to shift — he inferred that the brain synthesizes information from both eyes to construct a three-dimensional representation of space. This early description of what is now termed binocular vision underscored his ability to derive scientific principles through empirical observation. His insights into depth and spatial awareness also influenced his artistic compositions, allowing him to create paintings that possessed an unprecedented sense of realism and depth."
       },
       {
         type: "heading",
-        value: "Future Directions"
+        value: "Mathematical Principles of Perspective"
       },
       {
         type: "text",
-        value: "As we look to the future, we are exploring new technologies and approaches to further expand our impact. This includes the development of more affordable and durable adaptive lens options, telehealth solutions for remote consultations, and greater integration with existing healthcare systems."
+        value: "In addition to his anatomical and physiological studies, Leonardo applied mathematical reasoning to vision through his pioneering work on linear perspective. He recognized that the apparent size and position of objects are governed by geometric principles, noting that parallel lines converge toward a vanishing point in the distance. This understanding allowed him to construct visually accurate architectural spaces, as exemplified in The Last Supper, where the entire composition is structured around a single, precisely calculated vanishing point. His application of perspective was not merely an artistic tool but a demonstration of how visual perception operates according to defined mathematical laws — an idea that later influenced developments in both optics and computer-generated imaging."
       },
       {
         type: "text",
-        value: "The challenges are significant, but the potential impact is enormous. With each pair of glasses provided and each vision center established, we move closer to our goal of a world where clear vision is accessible to all, regardless of geographic location or economic status."
+        value: "Leonardo da Vinci's explorations of human vision reveal a remarkable synthesis of art and science, centuries ahead of his time. His recognition of the eye as an optical instrument, the role of the brain in interpreting visual stimuli, the impact of light on color perception, the mechanisms underlying depth perception, and the mathematical principles governing perspective all highlight his profound contributions to both fields. While he lacked the experimental apparatus of modern science, his keen observational skills and methodological approach allowed him to formulate theories that would later be confirmed through rigorous scientific inquiry. Today, his work continues to inspire researchers and artists alike, serving as a testament to the power of interdisciplinary exploration in advancing human knowledge."
       },
     ],
     comments: [
       {
         id: 1,
-        author: "Jane Smith",
-        date: "April 18, 2023",
-        content: "This is truly inspiring work! I've been following the ClearVision Foundation for years, and it's amazing to see the impact you're making.",
-        likes: 12
+        author: "Dr. Emily Chen",
+        date: "April 18, 2025",
+        content: "Fascinating article! Leonardo's insights into binocular vision were truly groundbreaking for his time.",
+        likes: 15,
+        liked: false
       },
       {
         id: 2,
-        author: "Michael Brown",
-        date: "April 20, 2023",
-        content: "I worked as a volunteer on one of these projects in Guatemala last year. The joy on people's faces when they could see clearly for the first time in years was unforgettable.",
-        likes: 8
-      },
-      {
-        id: 3,
-        author: "Priya Patel",
-        date: "April 22, 2023",
-        content: "Would love to know more about how the adaptive lens technology works. Is there a more technical article available?",
-        likes: 5
+        author: "Marcus Williams",
+        date: "April 20, 2025",
+        content: "As an artist, I've always been amazed by da Vinci's sfumato technique. Now I understand the science behind it!",
+        likes: 8,
+        liked: false
       }
     ]
   },
-  // More articles would be defined here
+  {
+    slug: "blue-light-impact",
+    title: "Is the Blue Light Hype Real or Just a Marketing Gimmick?",
+    subtitle: "Exploring the science behind blue light exposure and whether blue light filters are worth the investment.",
+    author: "Britney Nguyen",
+    authorRole: "Writer",
+    authorBio: "",
+    authorImage: "/placeholder.webp",
+    date: "March 20, 2025",
+    category: "Research",
+    medicalReviewer: "Jessica Broodryk, OD, FAAO",
+    content: [
+      {
+        type: "text",
+        value: "Since the pandemic, blue light filters, especially blue light glasses, have surged in popularity due to increased screen time. But why exactly are people so concerned with blue light? Are there real, scientifically-backed dangers, or is it simply fear-mongering for an easy cash grab?"
+      },
+      {
+        type: "heading",
+        value: "What is Blue Light?"
+      },
+      {
+        type: "text",
+        value: "Light is categorized by wavelength, which is measured in nanometers (nm). Visible light ranges from 380 to 780 nm, while blue light is specifically 400 to 495 nm."
+      },
+      {
+        type: "text",
+        value: "Blue light is commonly associated with artificial light, especially from electronic devices such as smartphones or computer screens. However, it doesn't look blue. For most white light, blue LEDs are combined with yellow phosphor. White light consists of all colors of light on the visible light spectrum, but this light peaks in the blue range. Even though it appears white to the eye, it is most akin to blue light on the light emission spectrum."
+      },
+      {
+        type: "text",
+        value: "A more commonly overlooked source of blue light is the sky. Due to the Sun's rays, the daytime sky is largely composed of blue light. Depending on the weather and temperature, the sky can emit up to 300 times more blue light than what is produced by electronic devices. While these emissions are significantly stronger than those of electronic devices, the sky's levels remain safe according to the recommended levels of exposure to blue light determined by ICNIRP."
+      },
+      {
+        type: "text",
+        value: "It is important to distinguish outdoor blue light from indoor blue light. While outdoor blue light is stronger, indoor blue light provides continuous exposure, even at night. Additionally, with the integration of electronic devices into our daily lives, indoor artificial blue light leaves us more susceptible to long-term exposure."
+      },
+      {
+        type: "heading",
+        value: "Can Blue Light Damage Your Eye?"
+      },
+      {
+        type: "text",
+        value: "A large concern for blue light is the damage it poses to eye health. The retina is the part of the eye that turns light into electrochemical signals to be processed in your brain. This region of the eye is the most susceptible to blue light exposure. Specifically, long exposure to high radiation of blue light can damage cells and proteins on the retina. However, the amount of blue light radiated from both electronic devices and natural sources is small compared to the amounts in these studies."
+      },
+      {
+        type: "text",
+        value: "Another concern for blue light is its contribution to conditions like myopia, better known as nearsightedness. However, research on the connection between blue light and myopia is largely inconclusive. A study was conducted where red, green, white, and blue light were exposed to various individuals. Although the red, green, and white light generally worsened myopic symptoms, the blue light reduced it. On another note, children with less exposure to the outdoors are more susceptible to myopia, which may be linked to a lack of blue light exposure. However, more research is needed to definitively say that blue light can help with myopia."
+      },
+      {
+        type: "heading",
+        value: "What Other Effects Are There?"
+      },
+      {
+        type: "text",
+        value: "While some receptors in your retina help with converting light to images in your brain, a receptor called the intrinsically photosensitive retinal ganglion cells (ipRGC) uses light for other processes, like controlling the circadian rhythm. The ipRGC is also responsible for processing most of the blue light, so an influx of blue light exposure to the ipRGC can significantly affect the circadian rhythm. To an individual's body, blue light acts like a signal for daytime. Using blue light later in the day, especially before bed, has caused reports of difficulty sleeping."
+      },
+      {
+        type: "text",
+        value: "Alternatively, blue light earlier in the day has been linked to an increase in alertness and concentration. Blue light therapy has been used to shift circadian cycles for people with Seasonal Affective Disorder (SAD) and Parkinson's disease, yielding positive results. It is also reported that post-cataract surgery, people report better sleep. This may be linked to the fact that new lenses from the surgery filter less blue light, allowing for more blue light exposure during the day."
+      },
+      {
+        type: "heading",
+        value: "Do Blue Light Filters Even Work?"
+      },
+      {
+        type: "text",
+        value: "The American Academy of Ophthalmology states that \"The Academy does not recommend any special blue light-blocking eyewear for computer use\" (Viment). Given that the amount of blue light emitted from electronic screens is already small, the light filtered from blue light filters is insignificant. While some users claim that it helps reduce eye strain and fatigue, others disagree. Moreover, research supporting the benefits of blue light filters remains insufficient. Although they would do no harm, choosing to wear blue light filtering products would provide little benefit."
+      },
+      {
+        type: "text",
+        value: "Overall, research cannot definitively defend the claim that blue light is harmful to physical eye health or that blue light glasses can provide substantial benefits. However, to reduce eye strain and improve sleep, practice the 20–20–20 rule and limit blue light exposure at night."
+      },
+    ],
+    comments: [
+      {
+        id: 1,
+        author: "Sarah Martinez",
+        date: "March 22, 2025",
+        content: "This is exactly what I needed to read! I was about to buy blue light glasses but now I'll save my money.",
+        likes: 12,
+        liked: false
+      },
+      {
+        id: 2,
+        author: "Tech Worker",
+        date: "March 25, 2025",
+        content: "Great article! The 20-20-20 rule has helped me more than any glasses ever did.",
+        likes: 7,
+        liked: false
+      },
+      {
+        id: 3,
+        author: "Dr. James Park",
+        date: "March 28, 2025",
+        content: "Well-researched piece. It's important to separate marketing hype from actual science.",
+        likes: 18,
+        liked: false
+      }
+    ]
+  },
 ];
 
 // Function to calculate reading time
@@ -147,9 +215,28 @@ function calculateReadingTime(content: Array<{ type: string; value?: string }>) 
 export default function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const [article, setArticle] = useState<any>(null);
   const [comment, setComment] = useState("");
+  const [commentAuthor, setCommentAuthor] = useState("");
   const [readingProgress, setReadingProgress] = useState(0);
   const [loading, setLoading] = useState(true);
   const [slug, setSlug] = useState<string | null>(null);
+  const [articleLiked, setArticleLiked] = useState(false);
+  const [articleLikes, setArticleLikes] = useState(0);
+  const [articleSaved, setArticleSaved] = useState(false);
+  const [comments, setComments] = useState<any[]>([]);
+  const [submittingComment, setSubmittingComment] = useState(false);
+
+  // Fetch comments from API
+  const fetchComments = async (articleSlug: string) => {
+    try {
+      const response = await fetch(`/api/comments?slug=${articleSlug}`);
+      if (response.ok) {
+        const data = await response.json();
+        setComments(data.comments);
+      }
+    } catch (error) {
+      console.error('Error fetching comments:', error);
+    }
+  };
 
   useEffect(() => {
     let isMounted = true;
@@ -159,6 +246,8 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
         const foundArticle = articles.find(article => article.slug === slug);
         if (foundArticle) {
           setArticle(foundArticle);
+          // Fetch comments from API
+          fetchComments(slug);
         }
         setLoading(false);
       }
@@ -179,29 +268,106 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
     };
   }, [params]);
 
-  const handleCommentSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleCommentSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
-    // In a real app, this would be an API call
-    if (comment.trim()) {
-      const newComment = {
-        id: article.comments.length + 1,
-        author: "Guest User",
-        date: new Date().toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
+    if (!comment.trim() || !commentAuthor.trim()) {
+      alert('Please enter both your name and comment');
+      return;
+    }
+
+    setSubmittingComment(true);
+
+    try {
+      const response = await fetch('/api/comments', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          slug: slug,
+          author: commentAuthor,
+          content: comment,
         }),
-        content: comment,
-        likes: 0
-      };
-      
-      setArticle({
-        ...article,
-        comments: [...article.comments, newComment]
       });
-      
-      setComment("");
+
+      if (response.ok) {
+        const data = await response.json();
+        // Add the new comment to the list
+        setComments([...comments, data.comment]);
+        setComment("");
+        setCommentAuthor("");
+      } else {
+        alert('Failed to post comment. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error posting comment:', error);
+      alert('Failed to post comment. Please try again.');
+    } finally {
+      setSubmittingComment(false);
+    }
+  };
+
+  const handleArticleLike = () => {
+    if (articleLiked) {
+      setArticleLikes(articleLikes - 1);
+    } else {
+      setArticleLikes(articleLikes + 1);
+    }
+    setArticleLiked(!articleLiked);
+  };
+
+  const handleArticleSave = () => {
+    setArticleSaved(!articleSaved);
+  };
+
+  const handleCommentLike = async (commentId: number) => {
+    const commentIndex = comments.findIndex(c => c.id === commentId);
+    if (commentIndex === -1) return;
+
+    const currentComment = comments[commentIndex];
+    const newLikedState = !currentComment.liked;
+
+    try {
+      const response = await fetch('/api/comments', {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          slug: slug,
+          commentId: commentId,
+          liked: newLikedState,
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        // Update the comment in the list
+        const updatedComments = [...comments];
+        updatedComments[commentIndex] = data.comment;
+        setComments(updatedComments);
+      }
+    } catch (error) {
+      console.error('Error liking comment:', error);
+    }
+  };
+
+  const handleShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: article.title,
+          text: article.subtitle,
+          url: window.location.href,
+        });
+      } catch (err) {
+        console.log('Error sharing:', err);
+      }
+    } else {
+      // Fallback: copy to clipboard
+      navigator.clipboard.writeText(window.location.href);
+      alert('Link copied to clipboard!');
     }
   };
 
@@ -249,6 +415,11 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
               <p className="text-lg md:text-xl text-gray-100 mb-6">
                 {article.subtitle}
               </p>
+              {article.medicalReviewer && (
+                <p className="text-sm text-gray-200 mb-4">
+                  Medically reviewed by {article.medicalReviewer}
+                </p>
+              )}
             </div>
 
             <div className="flex flex-wrap items-center justify-between gap-4">
@@ -274,7 +445,7 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
                 </div>
                 <div className="flex items-center gap-1.5">
                   <MessageCircle className="h-4 w-4" />
-                  <span className="text-sm">{article.comments.length} comments</span>
+                  <span className="text-sm">{comments.length} comments</span>
                 </div>
               </div>
             </div>
@@ -315,58 +486,89 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
 
             {/* Sharing and Engagement */}
             <div className="mt-12 flex justify-center gap-4">
-              <Button variant="outline" size="sm" className="rounded-full">
-                <ThumbsUp className="mr-2 h-4 w-4" /> Like
+              <Button 
+                variant="outline" 
+                size="sm" 
+                className={`rounded-full ${articleLiked ? 'bg-custom-darkBlue text-white border-custom-darkBlue' : ''}`}
+                onClick={handleArticleLike}
+              >
+                <ThumbsUp className={`mr-2 h-4 w-4 ${articleLiked ? 'fill-current' : ''}`} /> 
+                {articleLiked ? 'Liked' : 'Like'} {articleLikes > 0 && `(${articleLikes})`}
               </Button>
-              <Button variant="outline" size="sm" className="rounded-full">
+              <Button 
+                variant="outline" 
+                size="sm" 
+                className="rounded-full"
+                onClick={handleShare}
+              >
                 <Share2 className="mr-2 h-4 w-4" /> Share
               </Button>
-              <Button variant="outline" size="sm" className="rounded-full">
-                <BookOpen className="mr-2 h-4 w-4" /> Save
+              <Button 
+                variant="outline" 
+                size="sm" 
+                className={`rounded-full ${articleSaved ? 'bg-custom-darkBlue text-white border-custom-darkBlue' : ''}`}
+                onClick={handleArticleSave}
+              >
+                <BookOpen className={`mr-2 h-4 w-4 ${articleSaved ? 'fill-current' : ''}`} /> 
+                {articleSaved ? 'Saved' : 'Save'}
               </Button>
             </div>
 
             {/* Author Bio */}
-            <div className="mt-12 p-6 bg-gray-50 rounded-lg">
-              <div className="flex flex-col sm:flex-row gap-6">
-                <Avatar className="h-20 w-20 border-2 border-gray-200">
-                  <AvatarImage src={article.authorImage} alt={article.author} />
-                  <AvatarFallback>{article.author.split(' ').map((n: string) => n[0]).join('')}</AvatarFallback>
-                </Avatar>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">About {article.author}</h3>
-                  <p className="text-gray-600 mb-4">{article.authorBio}</p>
-                  <Button variant="outline" size="sm" className="rounded-full border-custom-darkBlue text-custom-darkBlue hover:bg-gray-100">
-                    <User className="mr-2 h-4 w-4" /> Follow
-                  </Button>
+            {article.authorBio && (
+              <div className="mt-12 p-6 bg-gray-50 rounded-lg">
+                <div className="flex flex-col sm:flex-row gap-6">
+                  <Avatar className="h-20 w-20 border-2 border-gray-200">
+                    <AvatarImage src={article.authorImage} alt={article.author} />
+                    <AvatarFallback>{article.author.split(' ').map((n: string) => n[0]).join('')}</AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">About {article.author}</h3>
+                    <p className="text-gray-600 mb-4">{article.authorBio}</p>
+                    <Button variant="outline" size="sm" className="rounded-full border-custom-darkBlue text-custom-darkBlue hover:bg-gray-100">
+                      <User className="mr-2 h-4 w-4" /> Follow
+                    </Button>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
 
             {/* Comments Section */}
             <div className="mt-16">
-              <h3 className="text-2xl font-bold mb-6">Comments ({article.comments.length})</h3>
+              <h3 className="text-2xl font-bold mb-6">Comments ({comments.length})</h3>
               
               {/* Comment Form */}
               <form onSubmit={handleCommentSubmit} className="mb-10">
+                <div className="mb-4">
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:border-custom-darkBlue focus:ring-custom-darkBlue focus:outline-none"
+                    value={commentAuthor}
+                    onChange={(e) => setCommentAuthor(e.target.value)}
+                    required
+                  />
+                </div>
                 <Textarea
                   placeholder="Write your comment..."
                   className="mb-4 border-gray-300 focus:border-custom-darkBlue focus:ring-custom-darkBlue"
                   rows={4}
                   value={comment}
                   onChange={(e) => setComment(e.target.value)}
+                  required
                 />
                 <Button 
                   type="submit" 
                   className="bg-custom-darkBlue hover:bg-custom-mediumBlue"
+                  disabled={submittingComment}
                 >
-                  Post Comment
+                  {submittingComment ? 'Posting...' : 'Post Comment'}
                 </Button>
               </form>
               
               {/* Comments Display */}
               <div className="space-y-8">
-                {article.comments.map((comment: { id: number; author: string; date: string; content: string; likes: number }) => (
+                {comments.map((comment: { id: number; author: string; date: string; content: string; likes: number; liked?: boolean }) => (
                   <div key={comment.id} className="p-4 bg-gray-50 rounded-lg">
                     <div className="flex justify-between items-start mb-2">
                       <div className="flex items-center gap-2">
@@ -379,8 +581,14 @@ export default function ArticlePage({ params }: { params: Promise<{ slug: string
                     </div>
                     <p className="text-gray-700 mb-3">{comment.content}</p>
                     <div className="flex items-center gap-2 text-sm">
-                      <Button variant="ghost" size="sm" className="text-gray-500 hover:text-custom-darkBlue">
-                        <ThumbsUp className="mr-1 h-3 w-3" /> {comment.likes} likes
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        className={`text-gray-500 hover:text-custom-darkBlue ${comment.liked ? 'text-custom-darkBlue' : ''}`}
+                        onClick={() => handleCommentLike(comment.id)}
+                      >
+                        <ThumbsUp className={`mr-1 h-3 w-3 ${comment.liked ? 'fill-current' : ''}`} /> 
+                        {comment.likes} {comment.likes === 1 ? 'like' : 'likes'}
                       </Button>
                       <Button variant="ghost" size="sm" className="text-gray-500 hover:text-custom-darkBlue">
                         Reply

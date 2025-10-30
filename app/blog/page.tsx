@@ -8,66 +8,25 @@ export default function BlogPage() {
   const blogPosts = [
     {
       id: 1,
-      slug: "the-impact-of-vision-care",
-      title: "The Impact of Vision Care in Developing Countries",
+      slug: "leonardo-da-vinci-vision",
+      title: "How Leonardo da Vinci Tried to Hack Vision 500 Years Ago",
       excerpt:
-        "Exploring how accessible vision care transforms lives and communities in developing regions around the world.",
-      category: "Impact",
-      author: "Dr. Sarah Johnson",
-      date: "April 15, 2023",
-      image: "/placeholder.webp",
+        "Leonardo da Vinci's groundbreaking explorations into human vision reveal a remarkable synthesis of art and science, centuries ahead of his time.",
+      category: "History",
+      author: "Karishmaa Siddharthan",
+      date: "April 16, 2025",
+      image: "/leonardo.webp",
     },
     {
       id: 2,
-      slug: "innovations-in-adaptive-lens-technology",
-      title: "Innovations in Adaptive Lens Technology",
+      slug: "blue-light-impact",
+      title: "Is the Blue Light Hype Real or Just a Marketing Gimmick?",
       excerpt:
-        "A deep dive into the latest breakthroughs in our adaptive lens research and what it means for the future of vision correction.",
+        "Since the pandemic, blue light filters have surged in popularity. But are there real, scientifically-backed dangers, or is it simply fear-mongering for an easy cash grab?",
       category: "Research",
-      author: "Dr. Michael Chen",
-      date: "March 22, 2023",
-      image: "/placeholder.webp",
-    },
-    {
-      id: 3,
-      slug: "stories-from-our-medical-eye-camps",
-      title: "Stories from Our Medical Eye Camps",
-      excerpt: "Heartwarming stories of transformation from our recent medical eye camps in rural communities.",
-      category: "Field Work",
-      author: "Emma Rodriguez",
-      date: "February 10, 2023",
-      image: "/placeholder.webp",
-    },
-    {
-      id: 4,
-      slug: "economics-of-vision-impact-on-livelihoods",
-      title: "The Economics of Vision: How Clear Sight Impacts Livelihoods",
-      excerpt:
-        "Examining the economic impact of vision impairment and how corrective measures can improve productivity and quality of life.",
-      category: "Research",
-      author: "Dr. James Wilson",
-      date: "January 28, 2023",
-      image: "/placeholder.webp",
-    },
-    {
-      id: 5,
-      slug: "volunteer-spotlight-global-team",
-      title: "Volunteer Spotlight: Meet Our Global Team",
-      excerpt: "Introducing the dedicated volunteers who make our mission possible across different continents.",
-      category: "Community",
-      author: "Lisa Thompson",
-      date: "January 5, 2023",
-      image: "/placeholder.webp",
-    },
-    {
-      id: 6,
-      slug: "science-behind-adaptive-lenses",
-      title: "The Science Behind Adaptive Lenses",
-      excerpt: "Understanding the scientific principles that make our adaptive lens technology possible.",
-      category: "Technology",
-      author: "Dr. Robert Kim",
-      date: "December 12, 2022",
-      image: "/placeholder.webp",
+      author: "Britney Nguyen",
+      date: "March 20, 2025",
+      image: "/blue light.webp",
     },
   ]
 
@@ -92,8 +51,9 @@ export default function BlogPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {blogPosts.map((post) => (
-              <div
+              <Link
                 key={post.id}
+                href={`/blog/article/${post.slug}`}
                 className="flex flex-col overflow-hidden rounded-lg border border-gray-200 shadow-sm transition-all hover:shadow-md"
               >
                 <div className="relative h-48 w-full overflow-hidden">
@@ -104,11 +64,9 @@ export default function BlogPage() {
                 </div>
                 <div className="flex flex-1 flex-col justify-between p-6">
                   <div className="flex-1">
-                    <Link href={`/blog/article/${post.slug || post.title.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '-')}`} className="block">
-                      <h3 className="mb-2 text-xl font-bold leading-tight text-gray-900 hover:text-custom-darkBlue">
-                        {post.title}
-                      </h3>
-                    </Link>
+                    <h3 className="mb-2 text-xl font-bold leading-tight text-gray-900 hover:text-custom-darkBlue">
+                      {post.title}
+                    </h3>
                     <p className="mb-4 text-gray-500">{post.excerpt}</p>
                   </div>
                   <div className="flex items-center justify-between">
@@ -122,7 +80,7 @@ export default function BlogPage() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

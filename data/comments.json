@@ -1,0 +1,54 @@
+{
+  "leonardo-da-vinci-vision": [
+    {
+      "id": 1,
+      "author": "Dr. Emily Chen",
+      "date": "April 18, 2025",
+      "content": "Fascinating article! Leonardo's insights into binocular vision were truly groundbreaking for his time.",
+      "likes": 15,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "author": "Marcus Williams",
+      "date": "April 20, 2025",
+      "content": "As an artist, I've always been amazed by da Vinci's sfumato technique. Now I understand the science behind it!",
+      "likes": 8,
+      "liked": false
+    }
+  ],
+  "blue-light-impact": [
+    {
+      "id": 1,
+      "author": "Sarah Martinez",
+      "date": "March 22, 2025",
+      "content": "This is exactly what I needed to read! I was about to buy blue light glasses but now I'll save my money.",
+      "likes": 12,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "author": "Tech Worker",
+      "date": "March 25, 2025",
+      "content": "Great article! The 20-20-20 rule has helped me more than any glasses ever did.",
+      "likes": 7,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "author": "Dr. James Park",
+      "date": "March 28, 2025",
+      "content": "Well-researched piece. It's important to separate marketing hype from actual science.",
+      "likes": 18,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "author": "Ellen",
+      "date": "October 30, 2025",
+      "content": "Amazing!",
+      "likes": 0,
+      "liked": false
+    }
+  ]
+}
