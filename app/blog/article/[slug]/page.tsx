@@ -99,7 +99,7 @@ const articles = [
     author: "Britney Nguyen",
     authorRole: "Writer",
     authorBio: "",
-    authorImage: "/placeholder.webp",
+    authorImage: "/britney nquyen.jpg",
     date: "March 20, 2025",
     category: "Research",
     medicalReviewer: "Jessica Broodryk, OD, FAAO",
