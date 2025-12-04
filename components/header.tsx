@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Eye } from "lucide-react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -16,9 +16,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <Eye className="h-6 w-6 text-custom-darkBlue" />
-          <span className="text-xl font-bold text-custom-darkBlue">ClearVision Foundation</span>
+        <Link href="/" className="flex items-center">
+          <Image 
+            src="/logo-removebg-preview.png" 
+            alt="ClearVision Foundation" 
+            width={180} 
+            height={60} 
+            className="object-contain"
+            priority
+          />
         </Link>
 
         {/* Mobile menu button */}
