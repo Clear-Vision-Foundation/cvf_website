@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Eye } from "lucide-react"
+import Image from "next/image"
 import { SocialLink } from "@/components/social-link"
 
 export default function Footer() {
@@ -8,10 +8,15 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 md:px-6">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <Eye className="h-6 w-6 text-custom-darkBlue" />
-              <span className="text-xl font-bold text-custom-darkBlue">ClearVision Foundation</span>
-            </div>
+            <Link href="/" className="flex items-center">
+              <Image 
+                src="/logo-removebg-preview.png" 
+                alt="ClearVision Foundation" 
+                width={180} 
+                height={60} 
+                className="object-contain"
+              />
+            </Link>
             <p className="text-sm text-gray-600">
               Bringing clear vision within reach for underserved communities worldwide.
             </p>
@@ -85,8 +90,8 @@ export default function Footer() {
                   </svg>
                 }
               />
-              {/* <SocialLink
-                href="https://www.instagram.com/clearvisionfoundation"
+              <SocialLink
+                href="https://www.instagram.com/foundation_clearvision/"
                 label="Instagram"
                 icon={
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -97,16 +102,7 @@ export default function Footer() {
                   />
                 </svg>
                 }
-              /> */}
-              {/* <SocialLink
-                href="https://twitter.com/clearvision"
-                label="X"
-                icon={
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
-                </svg>
-                }
-              /> */}
+              />
               <SocialLink
                 href="https://www.linkedin.com/company/clear-vision-foundation-2025/"
                 label="LinkedIn"
@@ -125,6 +121,9 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-gray-200 pt-8">
+          <p className="text-center text-xs text-gray-600 mb-2">
+            ClearVision Foundation is a 501(c)(3) non-profit organization fiscally sponsored by The Hack Foundation. Our EIN is 81-2908499.
+          </p>
           <p className="text-center text-xs text-gray-600">
             &copy; {new Date().getFullYear()} ClearVision Foundation. All rights reserved.
           </p>

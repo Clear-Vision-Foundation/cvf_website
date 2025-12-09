@@ -34,7 +34,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mb-6 text-lg text-white md:text-xl max-w-[680px]">
-                "Vision isn't just about what we see—it's about believing in a future where no one is left in the dark."
+                "Vision isn't just about what we see it's about believing in a future where no one is left in the dark."
               </p>
               <p className="mb-6 max-w-[680px] text-gray-100 md:text-lg">
                 At ClearVision Foundation, we are on a mission to provide accessible, high-quality eye care to underserved

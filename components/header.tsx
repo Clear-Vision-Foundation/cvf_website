@@ -57,16 +57,16 @@ export default function Header() {
             About
           </Link> */}
           <Link
-            href="/research"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
-          >
-            R&D
-          </Link>
-          <Link
             href="/nonprofit"
             className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             Non-profit
+          </Link>
+          <Link
+            href="/research"
+            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+          >
+            R&D
           </Link>
           <Link href="/blog" className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
             Blog
@@ -111,18 +111,18 @@ export default function Header() {
               About
             </Link>
             <Link
-              href="/research"
-              className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              R&D
-            </Link>
-            <Link
               href="/nonprofit"
               className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
               onClick={() => setIsMenuOpen(false)}
             >
               Non-profit
+            </Link>
+            <Link
+              href="/research"
+              className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              R&D
             </Link>
             <Link
               href="/blog"
