@@ -41,7 +41,7 @@ export default function Home() {
                 communities while advancing innovative solutions to reshape the future of vision correction.
               </p>
               <div className="flex flex-col gap-3 sm:flex-row">
-                <Link href="/donate">
+                <Link href="https://hcb.hackclub.com/donations/start/clearvision-foundation" target="_blank" rel="noopener noreferrer">
                   <Button variant="hero" className="hero-cta font-semibold">Donate Now</Button>
                 </Link>
                 <Link href="/volunteer">
@@ -196,7 +196,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="/donate">
+              <Link href="https://hcb.hackclub.com/donations/start/clearvision-foundation" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Today</Button>
               </Link>
               <Link href="/volunteer">
