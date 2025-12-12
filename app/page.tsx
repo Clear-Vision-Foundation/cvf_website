@@ -105,28 +105,34 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Impact & Goals</h2>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                Through our initiatives, we're making a real difference in communities worldwide.
+              <p className="mx-auto max-w-[900px] text-gray-600 md:text-lg">
+                Through our community-rooted model, we are transforming access to vision care where it has never existed before.
               </p>
             </div>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
-              <div className="text-3xl font-bold text-custom-darkBlue">20+</div>
-              <p className="text-center text-gray-500">
-                Free medical eye camps annually, our goal is to reach over 5,000 individuals in need.
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
+            <div className="flex flex-col space-y-4 rounded-lg bg-white p-8 shadow-sm">
+              <div className="text-4xl font-bold text-custom-darkBlue">100,000+</div>
+              <p className="text-gray-600 text-lg">
+                People to receive permanent access to vision screenings and eyecare in our first year across 50 Community Vision Hubs.
               </p>
             </div>
-            <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
-              <div className="text-3xl font-bold text-custom-darkBlue">500+</div>
-              <p className="text-center text-gray-500">
-                Cataract surgeries to be funded each year, restoring sight to those suffering from preventable blindness.
+            <div className="flex flex-col space-y-4 rounded-lg bg-white p-8 shadow-sm">
+              <div className="text-4xl font-bold text-custom-darkBlue">1,000+</div>
+              <p className="text-gray-600 text-lg">
+                Local students to be trained as Community Health Workers each year, creating a youth-powered eyecare workforce that serves their own communities.
               </p>
             </div>
-            <div className="flex flex-col items-center space-y-2 rounded-lg bg-white p-6 shadow-sm">
-              <div className="text-3xl font-bold text-custom-darkBlue">2,000+</div>
-              <p className="text-center text-gray-500">
-                Free prescription glasses to be distributed to underserved communities annually.
+            <div className="flex flex-col space-y-4 rounded-lg bg-white p-8 shadow-sm">
+              <div className="text-4xl font-bold text-custom-darkBlue">100,000+</div>
+              <p className="text-gray-600 text-lg">
+                Pairs of high-quality prescription glasses to be provided annually through our hubs, restoring sight and boosting learning, productivity, and livelihoods.
+              </p>
+            </div>
+            <div className="flex flex-col space-y-4 rounded-lg bg-white p-8 shadow-sm">
+              <div className="text-4xl font-bold text-custom-darkBlue">50+</div>
+              <p className="text-gray-600 text-lg">
+                Tin-shed Community Vision Hubs to be established in underserved regions around the world, embedding eyecare directly into village life through partnerships with schools and cooperatives.
               </p>
             </div>
           </div>

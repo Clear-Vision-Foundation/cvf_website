@@ -36,13 +36,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/research" className="text-sm text-gray-600 hover:text-custom-darkBlue">
-                  R&D
+                <Link href="/nonprofit" className="text-sm text-gray-600 hover:text-custom-darkBlue">
+                  Non-profit
                 </Link>
               </li>
               <li>
-                <Link href="/nonprofit" className="text-sm text-gray-600 hover:text-custom-darkBlue">
-                  Non-profit
+                <Link href="/research" className="text-sm text-gray-600 hover:text-custom-darkBlue">
+                  R&D
                 </Link>
               </li>
             </ul>
