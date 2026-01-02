@@ -169,20 +169,50 @@ export default function Home() {
                   <p className="text-gray-500">Serving communities across continents</p>
                 </div>
               </div>
-              {/* OneSight EssilorLuxottica Foundation Partnership */}
-              <div className="flex flex-col items-center mt-6 space-y-2">
-                <p className="text-sm text-gray-500 text-center">with partners like</p>
-                <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/onesight-logo.png"
-                    alt="OneSight EssilorLuxottica Foundation"
-                    width={300}
-                    height={60}
-                    className="opacity-85 hover:opacity-100 transition-opacity cursor-pointer"
-                    style={{ height: '60px', width: 'auto' }}
-                  />
-                </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Supporters Section */}
+      <section className="bg-gray-50 py-12 md:py-16">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex flex-col items-center space-y-8">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">Our Supporters</h2>
+            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+              {/* Essilor Luxottica */}
+              <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/onesight-logo.png"
+                  alt="OneSight EssilorLuxottica Foundation"
+                  width={220}
+                  height={80}
+                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                />
+              </Link>
+              {/* Eye Mitra */}
+              <div>
+                <Image
+                  src="/eyemitra.jpg"
+                  alt="Eye Mitra"
+                  width={220}
+                  height={80}
+                  className="opacity-75"
+                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                />
               </div>
+              {/* Luena Foundation */}
+              <Link href="https://luena.org/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/Luena-36213E.png"
+                  alt="Luena Foundation"
+                  width={220}
+                  height={80}
+                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                />
+              </Link>
             </div>
           </div>
         </div>
