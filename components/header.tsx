@@ -15,13 +15,13 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center">
+      <div className="container mx-auto flex h-28 items-center justify-between px-4 md:px-6">
+        <Link href="/" className="flex items-center -ml-2">
           <Image 
             src="/logo-removebg-preview.png" 
             alt="ClearVision Foundation" 
-            width={180} 
-            height={60} 
+            width={300} 
+            height={100} 
             className="object-contain"
             priority
           />
@@ -47,39 +47,39 @@ export default function Header() {
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex md:items-center md:gap-6">
-          <Link href="/" className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
+          <Link href="/" className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
             Home
           </Link>
           {/* <Link
             href="/about"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+            className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             About
           </Link> */}
           <Link
             href="/nonprofit"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+            className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             Non-profit
           </Link>
           <Link
             href="/research"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+            className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             R&D
           </Link>
-          <Link href="/blog" className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
+          <Link href="/blog" className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
             Blog
           </Link>
           <Link
             href="/volunteer"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+            className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             Volunteer
           </Link>
           <Link
             href="/contact"
-            className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+            className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
           >
             Contact
           </Link>
@@ -91,7 +91,7 @@ export default function Header() {
         {/* Mobile navigation */}
         <div
           className={cn(
-            "absolute left-0 right-0 top-16 z-50 bg-white p-4 shadow-md md:hidden",
+            "absolute left-0 right-0 top-28 z-50 bg-white p-4 shadow-md md:hidden",
             isMenuOpen ? "block" : "hidden",
           )}
         >
