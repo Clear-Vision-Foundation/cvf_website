@@ -20,8 +20,8 @@ export default function Header() {
           <Image 
             src="/logo-removebg-preview.png" 
             alt="ClearVision Foundation" 
-            width={300} 
-            height={100} 
+            width={320} 
+            height={107} 
             className="object-contain"
             priority
           />

@@ -12,8 +12,8 @@ export default function Footer() {
               <Image 
                 src="/logo-removebg-preview.png" 
                 alt="ClearVision Foundation" 
-                width={180} 
-                height={60} 
+                width={200} 
+                height={67} 
                 className="object-contain"
               />
             </Link>
