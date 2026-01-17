@@ -213,6 +213,17 @@ export default function Home() {
                   style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
                 />
               </Link>
+              {/* Khokon Memorial Hospitals */}
+              <Link href="https://kmhbd.org/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/Logo-kmh.png"
+                  alt="Khokon Memorial Hospitals"
+                  width={220}
+                  height={80}
+                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                />
+              </Link>
             </div>
           </div>
         </div>
