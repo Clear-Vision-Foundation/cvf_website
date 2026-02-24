@@ -224,6 +224,17 @@ export default function Home() {
                   style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
                 />
               </Link>
+              {/* Kenya Youth Federation */}
+              <Link href="https://www.kenyayouthfederation.org/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/kyf.png"
+                  alt="Kenya Youth Federation"
+                  width={280}
+                  height={100}
+                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
+                  style={{ height: 'auto', maxHeight: '100px', width: 'auto' }}
+                />
+              </Link>
             </div>
           </div>
         </div>
