@@ -179,60 +179,71 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center space-y-8">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center">Our Supporters</h2>
-            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+            <div className="grid w-full max-w-6xl grid-cols-2 gap-6 md:grid-cols-3 md:gap-8">
               {/* Essilor Luxottica */}
-              <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://onesight.essilorluxottica.com/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
                 <Image
                   src="/onesight-logo.png"
                   alt="OneSight EssilorLuxottica Foundation"
-                  width={220}
-                  height={80}
-                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </Link>
               {/* Eye Mitra */}
-              <div>
+              <div className="flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80">
                 <Image
                   src="/eyemitra.jpg"
                   alt="Eye Mitra"
-                  width={220}
-                  height={80}
-                  className="opacity-75"
-                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                  width={320}
+                  height={120}
+                  className="object-contain opacity-90 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </div>
               {/* Luena Foundation */}
-              <Link href="https://luena.org/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://luena.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
                 <Image
                   src="/Luena-36213E.png"
                   alt="Luena Foundation"
-                  width={220}
-                  height={80}
-                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </Link>
               {/* Khokon Memorial Hospitals */}
-              <Link href="https://kmhbd.org/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://kmhbd.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
                 <Image
                   src="/Logo-kmh.png"
                   alt="Khokon Memorial Hospitals"
-                  width={220}
-                  height={80}
-                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-                  style={{ height: 'auto', maxHeight: '80px', width: 'auto' }}
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
+                />
+              </Link>
+              {/* Arise and Shine Care Center */}
+              <Link href="https://ariseandshinecc.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
+                <Image
+                  src="/Arise and Shine Care Center.png"
+                  alt="Arise and Shine Care Center"
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </Link>
               {/* Kenya Youth Federation */}
-              <Link href="https://www.kenyayouthfederation.org/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.kenyayouthfederation.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
                 <Image
                   src="/kyf.png"
                   alt="Kenya Youth Federation"
-                  width={280}
-                  height={100}
-                  className="opacity-75 hover:opacity-100 transition-opacity cursor-pointer"
-                  style={{ height: 'auto', maxHeight: '100px', width: 'auto' }}
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </Link>
             </div>
