@@ -266,15 +266,17 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Link href="https://hcb.hackclub.com/donations/start/clearvision-foundation" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-white text-custom-darkBlue hover:bg-gray-100">Donate Today</Button>
+                <Button className="bg-[#E8D639] px-8 py-6 text-base font-bold text-[#0b2540] shadow-[0_10px_25px_rgba(232,214,57,0.35)] ring-2 ring-white/20 transition-all hover:-translate-y-0.5 hover:bg-[#f3e15b]">
+                  Donate Today
+                </Button>
               </Link>
               <Link href="/volunteer">
-                <Button className="bg-white text-custom-darkBlue hover:bg-gray-200 font-semibold">
+                <Button className="bg-white/90 text-custom-darkBlue hover:bg-white font-semibold">
                   Join the Movement
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button className="bg-white text-custom-darkBlue hover:bg-gray-200 font-semibold">Contact Us</Button>
+                <Button className="bg-white/90 text-custom-darkBlue hover:bg-white font-semibold">Contact Us</Button>
               </Link>
             </div>
           </div>
