@@ -71,6 +71,9 @@ export default function Header() {
           <Link href="/blog" className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
             Blog
           </Link>
+          <Link href="/team" className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue">
+            Team
+          </Link>
           <Link
             href="/volunteer"
             className="text-base font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
@@ -130,6 +133,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Blog
+            </Link>
+            <Link
+              href="/team"
+              className="text-sm font-medium text-gray-700 transition-colors hover:text-custom-darkBlue"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Team
             </Link>
             <Link
               href="/volunteer"
