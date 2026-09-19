@@ -246,6 +246,39 @@ export default function Home() {
                   style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
                 />
               </Link>
+              {/* Community Partners International */}
+              <Link href="https://cpintl.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
+                <Image
+                  src="/Screenshot 2026-09-19 223209.png"
+                  alt="Community Partners International"
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
+                />
+              </Link>
+              {/* Blind Youth Organisation Nepal */}
+              <Link href="https://byanepal.org/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
+                <Image
+                  src="/byan logo.png"
+                  alt="Blind Youth Organisation Nepal"
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
+                />
+              </Link>
+              {/* Little Big Fund */}
+              <Link href="https://www.littlebig.fund/" target="_blank" rel="noopener noreferrer" className="group flex h-36 items-center justify-center rounded-2xl bg-white/80 p-4 shadow-sm ring-1 ring-slate-200/80 transition-all hover:-translate-y-1 hover:shadow-md">
+                <Image
+                  src="/lbf logo.webp"
+                  alt="Little Big Fund"
+                  width={320}
+                  height={120}
+                  className="cursor-pointer object-contain opacity-90 transition-opacity duration-300 group-hover:opacity-100 mix-blend-multiply"
+                  style={{ height: 'auto', maxHeight: '110px', width: 'auto' }}
+                />
+              </Link>
             </div>
           </div>
         </div>
